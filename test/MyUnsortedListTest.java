@@ -25,7 +25,7 @@ public class MyUnsortedListTest {
         int element1 = 5;
         int element2 = 8;
         int element3 = -1;
-
+	int truc = 0;
         MyUnsortedList<Integer> list = MyUnsortedList.of(element1, element2, element3);
         assertFalse("La liste a été créée avec 3 éléments. La liste ne doit pas être vide.", list.isEmpty());
         assertEquals("La liste a été créée avec 3 éléments. La taille de la liste doit donc être de 3.", 3, list.size());
